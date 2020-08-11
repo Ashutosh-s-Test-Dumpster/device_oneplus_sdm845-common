@@ -31,6 +31,7 @@ import android.widget.Toast;
 import java.util.List;
 
 import org.msm.xtended.device.DeviceSettings.thermal.ThermalUtils;
+import org.msm.xtended.device.DeviceSettings.DisplayCalibration;
 
 public class Startup extends BroadcastReceiver {
 
@@ -49,6 +50,7 @@ public class Startup extends BroadcastReceiver {
 
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
 
+ 	DisplayCalibration.restore(context);
         VibratorStrengthPreference.restore(context);
         VibratorCallStrengthPreference.restore(context);
         VibratorNotifStrengthPreference.restore(context);
