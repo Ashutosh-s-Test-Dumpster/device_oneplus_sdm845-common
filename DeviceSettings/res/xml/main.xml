@@ -31,6 +31,7 @@
             android:key="kcal"
             android:title="@string/kcal_title"
             android:summary="@string/kcal_summary"
+            android:icon="@drawable/ic_kcal"
             android:persistent="false" >
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="org.msm.xtended.device.DeviceSettings"
