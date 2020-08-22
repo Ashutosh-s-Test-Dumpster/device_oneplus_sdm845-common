@@ -103,7 +103,7 @@
         android:key="audio"
         android:title="@string/audio_amplification">
 
-        <org.msm.xtended.device.DeviceSettings.CustomSeekBarPreference
+        <org.msm.xtended.device.DeviceSettings.preferences.CustomSeekBarPreference
             android:defaultValue="0"
             android:key="microphone_gain"
             android:max="20"
