@@ -1,0 +1,7 @@
+[
+  {
+    "repository"  : "Ashutosh-s-Test-Dumpster/packages_apps_TouchGestures",
+    "target_path" : "packages/apps/TouchGestures",
+    "branch"      : "ten"
+  }
+]
